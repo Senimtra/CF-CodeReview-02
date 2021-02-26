@@ -67,7 +67,7 @@ body {
 
 .arttext {
     padding: 0 5% 3%;
-    font-size: 1.5vh;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,4 +164,42 @@ a {
 
 #copyright {
     font-size: 0.6rem;
+}
+
+
+/* ##############################
+
+/* ### Media query for wearables begins here ### */
+
+@media screen and (max-width: 240px) {
+    body {
+        background-color: purple;
+    }
+}
+
+
+/* ### Media query for tablets begins here ### */
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+    body {
+        background-color: deepskyblue;
+    }
+}
+
+
+/* ### Media query for desktops begins here ### */
+
+@media screen and (min-width:1201px) and (max-width: 1920px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+/* ### Media query for large screens begins here ### */
+
+@media screen and (min-width:1921px) {
+    body {
+        background-color: brown;
+    }
 }
