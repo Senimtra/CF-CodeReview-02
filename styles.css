@@ -28,7 +28,6 @@ h1 {
 a {
   display: inline-block;
   text-decoration: none;
-  font-size: 1em;
   color: #ffffff;
 }
 
@@ -47,8 +46,21 @@ a {
           align-items: center;
 }
 
+#header #headlogo {
+  background-image: url(images/logo-newspaper-cf.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20em;
+  padding-top: 16%;
+}
+
 #header #cfbanner1 {
   display: none;
+}
+
+#header div {
+  border: 1px solid white;
 }
 
 #menu {
@@ -72,6 +84,10 @@ a {
   padding: 1% 20% 0 15%;
 }
 
+#menu ul li > a {
+  font-size: 1em;
+}
+
 #container {
   background-color: #ffffff;
   display: -webkit-box;
@@ -84,7 +100,7 @@ a {
   padding: 2% 0%;
 }
 
-.header {
+.heading {
   font-size: 0.5em;
   background-color: #c4c4c4;
   padding: 3% 0;
@@ -108,7 +124,9 @@ a {
 }
 
 #footer {
+  min-height: 14em;
   background-color: #0E0D0D;
+  padding: 4% 0% 16%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,6 +134,12 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #footer div:nth-of-type(2) {
@@ -125,32 +149,35 @@ a {
 }
 
 #footer ul {
-  min-height: 4vh;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 1% 20% 0 15%;
 }
 
-.logo {
+#footer ul li > a {
+  margin: 0 2.5vw 0;
+  font-size: 1.2em;
+}
+
+#footer #footlogo {
   background-image: url(images/logo-newspaper-cf.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 70%;
-  padding-top: 16%;
+  background-position: bottom;
+  width: 14em;
+  padding-top: 20%;
 }
 
-/*
-.fc1 {
-    order: 1;
-}*/
+#copyright {
+  font-size: 0.8em;
+}
 /*# sourceMappingURL=styles.css.map */
