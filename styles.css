@@ -8,6 +8,66 @@
 
 
 /* (853 / 1280 * 100) */
+/* ################################################################## */
+html {
+  background-color: #181818;
+}
+
+#container {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4% 0;
+  /*  margin: 10% 0;*/
+}
+
+.heading {
+  font-size: 0.6em;
+  height: 3rem;
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% 0;
+}
+
+#topnewscont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 5%;
+}
+
+#topnewscont div {
+  background-color: #0E0D0D;
+}
+
+#topnewscont div img {
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
+.mobile {
+  margin: 5%;
+}
+
+/* ################################################################## */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +76,7 @@
 body {
   max-width: 480px;
   margin: auto;
-  background: #181818;
+  background: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
@@ -64,7 +124,7 @@ a {
 }
 
 #menu ul {
-  min-height: 4vh;
+  min-height: 3rem;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,42 +137,11 @@ a {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 1% 20% 0 15%;
+  padding: 1% 20% 0 16%;
 }
 
 #menu ul li > a {
-  font-size: 1em;
-}
-
-#container {
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 2% 0%;
-}
-
-.heading {
-  font-size: 0.5em;
-  background-color: #c4c4c4;
-  padding: 3% 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#topnews1 {
-  background-image: url(images/jeff.png);
-  background-size: cover;
-  width: 50vw;
-  height: 50vw;
+  font-size: 1.2em;
 }
 
 #cfbanner2 {
@@ -121,7 +150,7 @@ a {
 
 #footer {
   min-height: 16em;
-  background-color: #0E0D0D;
+  background-color: #0e0d0d;
   padding: 0 0 10%;
   display: -webkit-box;
   display: -ms-flexbox;
