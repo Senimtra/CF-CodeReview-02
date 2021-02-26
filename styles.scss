@@ -7,12 +7,17 @@ html {
     background-color: #181818;
 }
 
-#container {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding: 4% 0;
-    /*  margin: 10% 0;*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    margin: auto;
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
 }
 
 .heading {
@@ -23,6 +28,11 @@ html {
     justify-content: center;
     align-items: center;
     margin: 5% 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
 }
 
 #popnewscont {
@@ -51,11 +61,11 @@ html {
     }
 }
 
-.mobile {
+.article {
     margin: 5%;
 }
 
-.mobiletxt {
+.arttext {
     padding: 0 5% 3%;
     font-size: 1.5vh;
     display: flex;
@@ -68,19 +78,6 @@ html {
 
 
 /* ################################################################## */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    max-width: 480px;
-    margin: auto;
-    background: #ffffff;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
-}
 
 h1 {
     color: black;

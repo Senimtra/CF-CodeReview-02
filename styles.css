@@ -4,17 +4,17 @@ html {
   background-color: #181818;
 }
 
-#container {
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 4% 0;
-  /*  margin: 10% 0;*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 480px;
+  margin: auto;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 .heading {
@@ -31,6 +31,16 @@ html {
       -ms-flex-align: center;
           align-items: center;
   margin: 5% 0;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #popnewscont {
@@ -75,11 +85,11 @@ html {
   width: 100%;
 }
 
-.mobile {
+.article {
   margin: 5%;
 }
 
-.mobiletxt {
+.arttext {
   padding: 0 5% 3%;
   font-size: 1.5vh;
   display: -webkit-box;
@@ -97,19 +107,6 @@ html {
 }
 
 /* ################################################################## */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  max-width: 480px;
-  margin: auto;
-  background: #ffffff;
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-}
-
 h1 {
   color: black;
 }
