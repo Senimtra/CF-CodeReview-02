@@ -1,19 +1,7 @@
-/* ### Mobile version max-width 480px ### */
+/* ### TO-DO ### */
 
 
-/*
-    https: //stackoverflow.com/questions/600743/
-    /* (img-height / img-width * container-width) */
-
-
-/* IMG alts einfügen !!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-/* (853 / 1280 * 100) */
-
-
-/* ################################################################## */
+/* img-alts */
 
 html {
     background-color: #181818;
@@ -28,8 +16,8 @@ html {
 }
 
 .heading {
-    font-size: 0.6em;
-    height: 3rem;
+    font-size: 0.4em;
+    height: 2rem;
     background-color: #c4c4c4;
     display: flex;
     justify-content: center;
@@ -42,7 +30,7 @@ html {
     flex-direction: column;
     padding: 0% 5%;
     div {
-        background-color: #0E0D0D;
+        background-color: #0e0d0d;
     }
     div img {
         object-position: center;
@@ -52,6 +40,17 @@ html {
 
 .mobile {
     margin: 5%;
+}
+
+.mobiletxt {
+    padding: 0 5% 3%;
+    font-size: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    text-align: center;
+    overflow: hidden;
 }
 
 
@@ -101,17 +100,18 @@ a {
 }
 
 #menu {
+    width: 100%;
     background-color: #0e0d0d;
     ul {
         min-height: 3rem;
         list-style: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+        padding: 0 5%;
         flex-wrap: wrap;
-        padding: 1% 20% 0 16%;
         li>a {
-            font-size: 1.2em;
+            font-size: 1rem;
         }
     }
 }
@@ -121,7 +121,7 @@ a {
 }
 
 #footer {
-    min-height: 16em;
+    min-height: 10rem;
     background-color: #0e0d0d;
     padding: 0 0 10%;
     display: flex;
@@ -139,7 +139,7 @@ a {
         flex-wrap: wrap;
         li>a {
             margin: 0 2.5vw 0;
-            font-size: 1.2em;
+            font-size: 0.9rem;
         }
     }
     #footlogo {
@@ -147,11 +147,11 @@ a {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom;
-        width: 14em;
+        width: 10rem;
         padding-top: 20%;
     }
 }
 
 #copyright {
-    font-size: 0.8em;
+    font-size: 0.6rem;
 }

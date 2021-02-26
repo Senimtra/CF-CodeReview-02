@@ -1,14 +1,5 @@
-@charset "UTF-8";
-/* ### Mobile version max-width 480px ### */
-/*
-    https: //stackoverflow.com/questions/600743/
-    /* (img-height / img-width * container-width) */
-/* IMG alts einfügen !!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
-/* (853 / 1280 * 100) */
-/* ################################################################## */
+/* ### TO-DO ### */
+/* img-alts */
 html {
   background-color: #181818;
 }
@@ -27,8 +18,8 @@ html {
 }
 
 .heading {
-  font-size: 0.6em;
-  height: 3rem;
+  font-size: 0.4em;
+  height: 2rem;
   background-color: #c4c4c4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +45,7 @@ html {
 }
 
 #topnewscont div {
-  background-color: #0E0D0D;
+  background-color: #0e0d0d;
 }
 
 #topnewscont div img {
@@ -65,6 +56,23 @@ html {
 
 .mobile {
   margin: 5%;
+}
+
+.mobiletxt {
+  padding: 0 5% 3%;
+  font-size: 1.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4em;
+  text-align: center;
+  overflow: hidden;
 }
 
 /* ################################################################## */
@@ -120,6 +128,7 @@ a {
 }
 
 #menu {
+  width: 100%;
   background-color: #0e0d0d;
 }
 
@@ -129,19 +138,19 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 5%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 1% 20% 0 16%;
 }
 
 #menu ul li > a {
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 #cfbanner2 {
@@ -149,7 +158,7 @@ a {
 }
 
 #footer {
-  min-height: 16em;
+  min-height: 10rem;
   background-color: #0e0d0d;
   padding: 0 0 10%;
   display: -webkit-box;
@@ -189,7 +198,7 @@ a {
 
 #footer ul li > a {
   margin: 0 2.5vw 0;
-  font-size: 1.2em;
+  font-size: 0.9rem;
 }
 
 #footer #footlogo {
@@ -197,11 +206,11 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  width: 14em;
+  width: 10rem;
   padding-top: 20%;
 }
 
 #copyright {
-  font-size: 0.8em;
+  font-size: 0.6rem;
 }
 /*# sourceMappingURL=styles.css.map */
