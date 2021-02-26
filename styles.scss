@@ -1,84 +1,88 @@
-        /* ### Mobile version max-width 480px ### */
-        
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            max-width: 480px;
-            margin: auto;
-            background: #181818;
-            font-family: "Roboto", sans-serif;
-            color: #FFFFFF;
-        }
-        
-        h1 {
-            color: black;
-        }
-        
-        a {
-            display: inline-block;
-            text-decoration: none;
-            font-size: 1em;
-            color: #FFFFFF;
-        }
-        
-        #header {
-            width: 100%;
-            min-height: 18vh;
-            background-color: #5B191A;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            #logo {
-                background-image: url(images/logo-newspaper-cf.png);
-                background-size: contain;
-                background-repeat: no-repeat;
-                width: 70%;
-                padding-top: 16%;
-                /*
+/* ### Mobile version max-width 480px ### */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    margin: auto;
+    background: #181818;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    color: black;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+#header {
+    width: 100%;
+    min-height: 18vh;
+    background-color: #5b191a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #logo {
+        background-image: url(images/logo-newspaper-cf.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 70%;
+        padding-top: 16%;
+        /*
         https: //stackoverflow.com/questions/600743/
         /* (img-height / img-width * container-width) */
-                /* (853 / 1280 * 100) */
-            }
-            #cfbanner {
-                display: none;
-            }
-        }
-        
-        #menu {
-            background-color: #0E0D0D;
-            ul {
-                min-height: 4vh;
-                list-style: none;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-wrap: wrap;
-                padding: 1% 20% 0 15%;
-                /*  padding: 0.5% 21% 0 15%; */
-            }
-        }
-        
-        #container {
-            background-color: #FFFFFF;
-            display: flex;
-            flex-direction: column;
-            padding: 2% 0%;
-        }
-        
-        .header {
-            font-size: 0.5em;
-            background-color: #C4C4C4;
-            padding: 3% 0;
-            display: flex;
-            justify-content: center;
-        }
-        
-        #topnews1 {
-            background-image: url(images/jeff.png);
-            background-size: cover;
-            width: 50vw;
-            height: 50vw;
-        }
+        /* (853 / 1280 * 100) */
+    }
+    #cfbanner1 {
+        display: none;
+    }
+}
+
+#menu {
+    background-color: #0e0d0d;
+    ul {
+        min-height: 4vh;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1% 20% 0 15%;
+        /*  padding: 0.5% 21% 0 15%; */
+    }
+}
+
+#container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0%;
+}
+
+.header {
+    font-size: 0.5em;
+    background-color: #c4c4c4;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+}
+
+#topnews1 {
+    background-image: url(images/jeff.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+}
+
+#cfbanner2 {
+    display: none;
+}
