@@ -1,86 +1,11 @@
-/* ### TO-DO ### */
-
-
-/* img-alts */
-
-html {
-    background-color: #181818;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    max-width: 480px;
-    margin: auto;
-    background: #ffffff;
+    background-color: #222222;
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
-}
-
-.heading {
-    font-size: 0.4em;
-    height: 2rem;
-    background-color: #c4c4c4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5% 0;
-}
-
-#container {
-    display: flex;
-    flex-direction: column;
-}
-
-#popnewscont {
-    display: flex;
-    flex-direction: column;
-    padding: 0% 5%;
-    div {
-        background-color: #0e0d0d;
-    }
-    div img {
-        object-position: center;
-        width: 100%;
-    }
-}
-
-#topnewscont {
-    display: flex;
-    flex-direction: column;
-    padding: 0% 5%;
-    div {
-        background-color: #0e0d0d;
-    }
-    div img {
-        object-position: center;
-        width: 100%;
-    }
-}
-
-.article {
-    margin: 5%;
-}
-
-.arttext {
-    padding: 0 5% 3%;
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4em;
-    text-align: center;
-    overflow: hidden;
-}
-
-
-/* ################################################################## */
-
-h1 {
-    color: black;
 }
 
 a {
@@ -89,23 +14,34 @@ a {
     color: #ffffff;
 }
 
+#wrapper {
+    width: 80%;
+}
+
 #header {
-    width: 100%;
-    min-height: 18vh;
-    background-color: #5b191a;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    height: 20vh;
+    background-color: #5b191a;
+    padding: 0 2% 0 7%;
+    overflow: hidden;
     #headlogo {
         background-image: url(images/logo-newspaper-cf.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        width: 20em;
+        width: 25%;
         padding-top: 16%;
     }
     #cfbanner1 {
-        display: none;
+        background-image: url(images/banner-1.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+        padding-top: 16%;
     }
 }
 
@@ -113,93 +49,18 @@ a {
     width: 100%;
     background-color: #0e0d0d;
     ul {
-        min-height: 3rem;
+        min-height: 7vh;
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
-        padding: 0 5%;
+        padding: 0 0 0 2%;
         flex-wrap: wrap;
-        li>a {
-            font-size: 1rem;
+        li {
+            padding: 0 0 0 2%;
         }
-    }
-}
-
-#cfbanner2 {
-    display: none;
-}
-
-#footer {
-    min-height: 10rem;
-    background-color: #0e0d0d;
-    padding: 0 0 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    div:nth-of-type(2) {
-        order: -1;
-    }
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         li>a {
-            margin: 0 2.5vw 0;
-            font-size: 0.9rem;
+            font-size: 3vh;
         }
-    }
-    #footlogo {
-        background-image: url(images/logo-newspaper-cf.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        width: 10rem;
-        padding-top: 20%;
-    }
-}
-
-#copyright {
-    font-size: 0.6rem;
-}
-
-
-/* ##############################
-
-/* ### Media query for wearables begins here ### */
-
-@media screen and (max-width: 240px) {
-    body {
-        background-color: purple;
-    }
-}
-
-
-/* ### Media query for tablets begins here ### */
-
-@media screen and (min-width: 481px) and (max-width: 900px) {
-    body {
-        background-color: deepskyblue;
-    }
-}
-
-
-/* ### Media query for desktops begins here ### */
-
-@media screen and (min-width:1201px) and (max-width: 1920px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-
-/* ### Media query for large screens begins here ### */
-
-@media screen and (min-width:1921px) {
-    body {
-        background-color: brown;
     }
 }

@@ -1,0 +1,299 @@
+/* ### TO-DO ### */
+
+
+/* img-alts */
+
+html {
+    background-color: #181818;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    margin: auto;
+    background: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.heading {
+    font-size: 0.4em;
+    height: 2rem;
+    background-color: #c4c4c4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+#container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#popnewscont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0% 5%;
+}
+
+#popnewscont div {
+    background-color: #0e0d0d;
+}
+
+#popnewscont div img {
+    -o-object-position: center;
+    object-position: center;
+    width: 100%;
+}
+
+#topnewscont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0% 5%;
+}
+
+#topnewscont div {
+    background-color: #0e0d0d;
+}
+
+#topnewscont div img {
+    -o-object-position: center;
+    object-position: center;
+    width: 100%;
+}
+
+.article {
+    margin: 5%;
+}
+
+.arttext {
+    padding: 0 5% 3%;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 4em;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* ################################################################## */
+
+h1 {
+    color: black;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header {
+    width: 100%;
+    min-height: 18vh;
+    background-color: #5b191a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#header #headlogo {
+    background-image: url(images/logo-newspaper-cf.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20em;
+    padding-top: 16%;
+}
+
+#header #cfbanner1 {
+    display: none;
+}
+
+#menu {
+    width: 100%;
+    background-color: #0e0d0d;
+}
+
+#menu ul {
+    min-height: 3rem;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 5%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#menu ul li>a {
+    font-size: 1rem;
+}
+
+#cfbanner2 {
+    display: none;
+}
+
+#footer {
+    min-height: 10rem;
+    background-color: #0e0d0d;
+    padding: 0 0 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+#footer div:nth-of-type(2) {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+#footer ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#footer ul li>a {
+    margin: 0 2.5vw 0;
+    font-size: 0.9rem;
+}
+
+#footer #footlogo {
+    background-image: url(images/logo-newspaper-cf.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 10rem;
+    padding-top: 20%;
+}
+
+#copyright {
+    font-size: 0.6rem;
+}
+
+
+/* ##############################
+
+/* ### Media query for wearables begins here ### */
+
+@media screen and (max-width: 240px) {
+    body {
+        display: none;
+    }
+}
+
+
+/* ### Media query for tablets begins here ### */
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+    body {
+        background-color: deepskyblue;
+    }
+}
+
+
+/* ### Media query for desktops begins here ### */
+
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+    body {
+        max-width: 1440px;
+        margin: auto;
+        background: lightgreen;
+        font-family: "Roboto", sans-serif;
+        color: #ffffff;
+    }
+    #header {
+        width: 100%;
+        min-height: 18vh;
+        background-color: #5b191a;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #header #headlogo {
+        background-image: url(images/logo-newspaper-cf.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 20em;
+        padding-top: 16%;
+    }
+    #header #cfbanner1 {
+        display: inline-block;
+    }
+}
+
+
+/*# sourceMappingURL=styles.css.map */
