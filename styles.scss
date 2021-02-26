@@ -53,9 +53,6 @@ a {
     #cfbanner1 {
         display: none;
     }
-    div {
-        border: 1px solid white;
-    }
 }
 
 #menu {
@@ -101,13 +98,13 @@ a {
 }
 
 #footer {
-    min-height: 14em;
+    min-height: 16em;
     background-color: #0E0D0D;
-    padding: 4% 0% 16%;
+    padding: 0 0 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     div:nth-of-type(2) {
         order: -1
     }
