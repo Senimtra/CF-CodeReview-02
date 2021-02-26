@@ -16,6 +16,7 @@ a {
 
 #wrapper {
   width: 80%;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -142,6 +143,20 @@ a {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
+}
+
+.developer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  background-image: url(images/banner-3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 9.947826086956522%;
+  /* (img-height / img-width * container-width) */
+  /* (853 / 1280 * 100) */
 }
 
 .article img {
