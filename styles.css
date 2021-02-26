@@ -1,2 +1,43 @@
 /* ### Mobile version max-width 480px ### */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 480px;
+  margin: auto;
+  background: #181818;
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-color: #5B191A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header #logo {
+  background-image: url(images/logo-newspaper-cf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  padding-top: 21.51%;
+  /*
+        https: //stackoverflow.com/questions/600743/
+        /* (img-height / img-width * container-width) */
+  /* (853 / 1280 * 100) */
+}
+
+#header #cfbanner {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */

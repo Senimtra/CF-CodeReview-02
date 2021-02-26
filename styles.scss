@@ -1,1 +1,35 @@
 /* ### Mobile version max-width 480px ### */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    margin: auto;
+    background: #181818;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-color: #5B191A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #logo {
+        background-image: url(images/logo-newspaper-cf.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 70%;
+        padding-top: 21.51%;
+        /*
+        https: //stackoverflow.com/questions/600743/
+        /* (img-height / img-width * container-width) */
+        /* (853 / 1280 * 100) */
+    }
+    #cfbanner {
+        display: none;
+    }
+}
