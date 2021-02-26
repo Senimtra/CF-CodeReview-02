@@ -1,35 +1,56 @@
-/* ### Mobile version max-width 480px ### */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    max-width: 480px;
-    margin: auto;
-    background: #181818;
-}
-
-#header {
-    width: 100%;
-    height: 100vh;
-    background-color: #5B191A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    #logo {
-        background-image: url(images/logo-newspaper-cf.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 70%;
-        padding-top: 21.51%;
-        /*
+        /* ### Mobile version max-width 480px ### */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            max-width: 480px;
+            margin: auto;
+            background: #181818;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        a {
+            color: #FFFFFF;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        
+        #header {
+            width: 100%;
+            min-height: 16vh;
+            background-color: #5B191A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #logo {
+                background-image: url(images/logo-newspaper-cf.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 70%;
+                padding-top: 16%;
+                /*
         https: //stackoverflow.com/questions/600743/
         /* (img-height / img-width * container-width) */
-        /* (853 / 1280 * 100) */
-    }
-    #cfbanner {
-        display: none;
-    }
-}
+                /* (853 / 1280 * 100) */
+            }
+            #cfbanner {
+                display: none;
+            }
+        }
+        
+        #menu {
+            width: 100%;
+            background-color: #0E0D0D;
+            ul {
+                min-height: 5vh;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /*  padding: 0.5% 21% 0 15%; */
+            }
+        }
