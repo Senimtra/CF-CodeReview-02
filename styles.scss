@@ -1,5 +1,17 @@
 /* ### Mobile version max-width 480px ### */
 
+
+/*
+    https: //stackoverflow.com/questions/600743/
+    /* (img-height / img-width * container-width) */
+
+
+/* IMG alts einfügen !!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+/* (853 / 1280 * 100) */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,17 +43,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    #logo {
-        background-image: url(images/logo-newspaper-cf.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 70%;
-        padding-top: 16%;
-        /*
-        https: //stackoverflow.com/questions/600743/
-        /* (img-height / img-width * container-width) */
-        /* (853 / 1280 * 100) */
-    }
     #cfbanner1 {
         display: none;
     }
@@ -57,7 +58,6 @@ a {
         align-items: center;
         flex-wrap: wrap;
         padding: 1% 20% 0 15%;
-        /*  padding: 0.5% 21% 0 15%; */
     }
 }
 
@@ -86,3 +86,35 @@ a {
 #cfbanner2 {
     display: none;
 }
+
+#footer {
+    background-color: #0E0D0D;
+    display: flex;
+    flex-direction: column;
+    div:nth-of-type(2) {
+        order: -1
+    }
+    ul {
+        min-height: 4vh;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1% 20% 0 15%;
+    }
+}
+
+.logo {
+    background-image: url(images/logo-newspaper-cf.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    padding-top: 16%;
+}
+
+
+/*
+.fc1 {
+    order: 1;
+}*/

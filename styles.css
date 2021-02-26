@@ -1,4 +1,13 @@
+@charset "UTF-8";
 /* ### Mobile version max-width 480px ### */
+/*
+    https: //stackoverflow.com/questions/600743/
+    /* (img-height / img-width * container-width) */
+/* IMG alts einfügen !!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+/* (853 / 1280 * 100) */
 * {
   margin: 0;
   padding: 0;
@@ -38,18 +47,6 @@ a {
           align-items: center;
 }
 
-#header #logo {
-  background-image: url(images/logo-newspaper-cf.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 70%;
-  padding-top: 16%;
-  /*
-        https: //stackoverflow.com/questions/600743/
-        /* (img-height / img-width * container-width) */
-  /* (853 / 1280 * 100) */
-}
-
 #header #cfbanner1 {
   display: none;
 }
@@ -73,7 +70,6 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 1% 20% 0 15%;
-  /*  padding: 0.5% 21% 0 15%; */
 }
 
 #container {
@@ -110,4 +106,51 @@ a {
 #cfbanner2 {
   display: none;
 }
+
+#footer {
+  background-color: #0E0D0D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer div:nth-of-type(2) {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+#footer ul {
+  min-height: 4vh;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1% 20% 0 15%;
+}
+
+.logo {
+  background-image: url(images/logo-newspaper-cf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  padding-top: 16%;
+}
+
+/*
+.fc1 {
+    order: 1;
+}*/
 /*# sourceMappingURL=styles.css.map */
