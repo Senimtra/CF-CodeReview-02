@@ -33,6 +33,27 @@ html {
   margin: 5% 0;
 }
 
+#popnewscont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0% 5%;
+}
+
+#popnewscont div {
+  background-color: #0e0d0d;
+}
+
+#popnewscont div img {
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
 #topnewscont {
   display: -webkit-box;
   display: -ms-flexbox;
