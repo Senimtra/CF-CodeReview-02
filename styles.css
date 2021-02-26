@@ -15,12 +15,12 @@ a {
   color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 #header {
   width: 100%;
-  min-height: 20vh;
+  min-height: 18vh;
   background-color: #5B191A;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +54,7 @@ a {
 }
 
 #menu ul {
-  min-height: 4.5vh;
+  min-height: 4vh;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,5 +69,29 @@ a {
       flex-wrap: wrap;
   padding: 1% 20% 0 15%;
   /*  padding: 0.5% 21% 0 15%; */
+}
+
+#container {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2% 0%;
+}
+
+.header {
+  font-size: 0.4em;
+  background-color: #C4C4C4;
+  padding: 3% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */

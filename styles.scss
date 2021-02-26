@@ -16,12 +16,12 @@
             color: #FFFFFF;
             display: inline-block;
             text-decoration: none;
-            font-size: 1.3em;
+            font-size: 1em;
         }
         
         #header {
             width: 100%;
-            min-height: 20vh;
+            min-height: 18vh;
             background-color: #5B191A;
             display: flex;
             justify-content: center;
@@ -45,7 +45,7 @@
         #menu {
             background-color: #0E0D0D;
             ul {
-                min-height: 4.5vh;
+                min-height: 4vh;
                 list-style: none;
                 display: flex;
                 justify-content: space-between;
@@ -54,4 +54,19 @@
                 padding: 1% 20% 0 15%;
                 /*  padding: 0.5% 21% 0 15%; */
             }
+        }
+        
+        #container {
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 2% 0%;
+        }
+        
+        .header {
+            font-size: 0.4em;
+            background-color: #C4C4C4;
+            padding: 3% 0;
+            display: flex;
+            justify-content: center;
         }
