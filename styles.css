@@ -9,13 +9,18 @@ body {
   margin: auto;
   background: #181818;
   font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+h1 {
+  color: black;
 }
 
 a {
-  color: #FFFFFF;
   display: inline-block;
   text-decoration: none;
   font-size: 1em;
+  color: #FFFFFF;
 }
 
 #header {
@@ -84,7 +89,7 @@ a {
 }
 
 .header {
-  font-size: 0.4em;
+  font-size: 0.5em;
   background-color: #C4C4C4;
   padding: 3% 0;
   display: -webkit-box;
@@ -93,5 +98,12 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#topnews1 {
+  background-image: url(images/jeff.png);
+  background-size: cover;
+  width: 50vw;
+  height: 50vw;
 }
 /*# sourceMappingURL=styles.css.map */
