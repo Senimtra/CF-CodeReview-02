@@ -16,6 +16,7 @@ a {
 
 #wrapper {
   width: 80%;
+  background-color: white;
 }
 
 #header {
@@ -43,7 +44,7 @@ a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 25%;
+  width: 24%;
   padding-top: 16%;
 }
 
@@ -52,7 +53,7 @@ a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 50%;
+  width: 55%;
   padding-top: 16%;
 }
 
@@ -62,7 +63,7 @@ a {
 }
 
 #menu ul {
-  min-height: 7vh;
+  min-height: 6vh;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +84,67 @@ a {
 }
 
 #menu ul li > a {
-  font-size: 3vh;
+  font-size: calc(1em + 1vw);
+}
+
+#date {
+  border: 1px solid black;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(0.6em + 0.5vw);
+  font-weight: bold;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 2.5%;
+}
+
+#container {
+  display: -ms-grid;
+  display: grid;
+  padding: 0 6%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  grid-auto-rows: auto;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+  row-gap: 2em;
+}
+
+#container div {
+  border: 1px solid red;
+}
+
+.heading {
+  font-size: calc(1em + 0.5vw);
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+.article img {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

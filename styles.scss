@@ -16,6 +16,7 @@ a {
 
 #wrapper {
     width: 80%;
+    background-color: white;
 }
 
 #header {
@@ -32,7 +33,7 @@ a {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        width: 25%;
+        width: 24%;
         padding-top: 16%;
     }
     #cfbanner1 {
@@ -40,7 +41,7 @@ a {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        width: 50%;
+        width: 55%;
         padding-top: 16%;
     }
 }
@@ -49,7 +50,7 @@ a {
     width: 100%;
     background-color: #0e0d0d;
     ul {
-        min-height: 7vh;
+        min-height: 6vh;
         list-style: none;
         display: flex;
         justify-content: flex-start;
@@ -60,7 +61,47 @@ a {
             padding: 0 0 0 2%;
         }
         li>a {
-            font-size: 3vh;
+            font-size: calc(1em + 1vw);
         }
+    }
+}
+
+#date {
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    font-size: calc(0.6em + 0.5vw);
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2.5%;
+}
+
+#container {
+    display: grid;
+    padding: 0 6%;
+    justify-content: space-between;
+    div {
+        border: 1px solid red;
+    }
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: auto;
+    column-gap: 1em;
+    row-gap: 2em;
+}
+
+.heading {
+    font-size: calc(1em + 0.5vw);
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/4;
+}
+
+.article {
+    img {
+        width: 100%;
     }
 }
