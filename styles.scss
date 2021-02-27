@@ -172,16 +172,9 @@ a {
 }
 
 
-/* ### Media query for tablets begins here ### */
-
-@media screen and (min-width: 481px) and (max-width: 800px) {
-    body {}
-}
-
-
 /* ### Media query for mobile devices begins here ### */
 
-@media screen and (min-width: 281px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     body {
         background-color: lightgreen;
         #header {
@@ -244,11 +237,6 @@ a {
         }
         .developer {
             display: none;
-        }
-    }
-    @media screen and (min-width: 481px) {
-        body {
-            background-color: darksalmon;
         }
     }
 }

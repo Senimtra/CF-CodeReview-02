@@ -247,9 +247,8 @@ a {
   color: white;
 }
 
-/* ### Media query for tablets begins here ### */
 /* ### Media query for mobile devices begins here ### */
-@media screen and (min-width: 281px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background-color: lightgreen;
   }
@@ -343,12 +342,6 @@ a {
   }
   body .developer {
     display: none;
-  }
-}
-
-@media screen and (min-width: 281px) and (max-width: 480px) and (min-width: 481px) {
-  body {
-    background-color: darksalmon;
   }
 }
 /*# sourceMappingURL=styles.css.map */
