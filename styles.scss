@@ -1,3 +1,5 @@
+/* ### styles.scss Code Review 02 ### */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,15 @@ a {
     font-weight: bold;
     color: white;
 }
+
+
+/* ### This is from desktop to mobile, even though I know it should be the other way around. */
+
+
+/* ### I tried, but failed ... for hours. Then I decided to at least keep the mobile version */
+
+
+/* ### to somehow merge them later on - but that got even worse. I'm done ... */
 
 #wrapper {
     max-width: 1680px;
@@ -48,6 +59,9 @@ a {
         padding-top: 16%;
     }
 }
+
+
+/* ### Menu bar begins here ### */
 
 #menu {
     width: 100%;
@@ -92,6 +106,9 @@ a {
     color: black;
 }
 
+
+/* ### The two containers of the desktop version. ### */
+
 #container1 {
     display: grid;
     padding: 0 6%;
@@ -113,6 +130,9 @@ a {
     row-gap: 2em;
 }
 
+
+/* ### Webdeveloper banner ### */
+
 .developer {
     display: flex;
     flex-direction: row;
@@ -121,6 +141,9 @@ a {
     width: 100%;
     overflow: hidden;
 }
+
+
+/* ### Image and text adjustments (news) ### */
 
 .article {
     img {
