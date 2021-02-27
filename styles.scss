@@ -110,16 +110,11 @@ a {
 }
 
 .developer {
-    grid-column: 1/4;
-    background-image: url(images/banner-3.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
     width: 100%;
-    margin-top: 0.5em;
-    padding-top: 9.947826086956522%;
-    /* (img-height / img-width * container-width) */
-    /* (853 / 1280 * 100) */
 }
 
 .big1 {
