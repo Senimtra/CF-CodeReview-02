@@ -283,40 +283,96 @@ a {
 
 /* ### Media query for mobile devices begins here ### */
 @media screen and (max-width: 480px) {
-  body {
-    background-color: lightgreen;
+  body a {
+    font-weight: normal;
   }
   body #header {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 20vh;
-    padding: 0 2% 0 7%;
-    overflow: hidden;
   }
   body #header #headlogo {
-    background-image: url(images/logo-newspaper-cf.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 35%;
-    padding-top: 16%;
+    width: 100%;
   }
   body #header #cfbanner1 {
     display: none;
   }
   body #menu {
-    width: 100%;
     background-color: #0e0d0d;
   }
   body #menu ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body #date {
+    display: none;
+  }
+  body .heading {
+    font-size: calc(0.9em + 0.5vw);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 110%;
+    position: relative;
+    left: -7%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+    margin-top: 2em;
+    height: 12vw;
+  }
+  body #container1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .developer {
+    display: none;
+  }
+  body .arttext {
+    font-size: 80%;
+  }
+  body #footer {
+    position: relative;
+    top: 2px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    background-color: #0e0d0d;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 4em;
+    overflow: hidden;
+  }
+  body #footer ul {
+    width: 50%;
+    font-size: 60%;
     min-height: 6vh;
     list-style: none;
     display: -webkit-box;
@@ -332,50 +388,34 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  body #menu ul li {
+  body #footer ul li {
     padding: 0 0 0 2%;
   }
-  body #menu ul li > a {
+  body #footer ul li > a {
     font-size: calc(1em + 1vw);
   }
-  body #date {
-    display: none;
+  body #footer div img {
+    padding: 0 50px 0 0;
   }
-  body #container1 {
+  body #CodeFactory {
+    background-color: #0e0d0d;
+    position: relative;
+    font-size: 1em;
+    height: 7vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0 6%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-column-gap: 1em;
-            column-gap: 1em;
-    row-gap: 2em;
-  }
-  body #container2 {
-    margin-top: 2.5em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0 6%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-column-gap: 1em;
-            column-gap: 1em;
-    row-gap: 2em;
-  }
-  body .developer {
-    display: none;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1vh;
   }
 }
 /*# sourceMappingURL=styles.css.map */
