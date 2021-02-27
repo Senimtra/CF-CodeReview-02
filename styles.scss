@@ -12,6 +12,7 @@ a {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
+    font-weight: bold;
 }
 
 #wrapper {
@@ -34,7 +35,7 @@ a {
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        width: 24%;
+        width: 35%;
         padding-top: 16%;
     }
     #cfbanner1 {
@@ -68,7 +69,6 @@ a {
 }
 
 #date {
-    border: 1px solid black;
     height: 10vh;
     display: flex;
     font-size: calc(0.6em + 0.5vw);
@@ -77,19 +77,6 @@ a {
     justify-content: flex-end;
     align-items: center;
     padding-right: 2.5%;
-}
-
-#container {
-    display: grid;
-    padding: 0 6%;
-    justify-content: space-between;
-    div {
-        border: 1px solid red;
-    }
-    grid-template-columns: 30% 30% 30%;
-    grid-auto-rows: auto;
-    column-gap: 1em;
-    row-gap: 2em;
 }
 
 .heading {
@@ -101,6 +88,27 @@ a {
     grid-column: 1/4;
 }
 
+#container1 {
+    display: grid;
+    padding: 0 6%;
+    justify-content: space-between;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: auto;
+    column-gap: 1em;
+    row-gap: 2em;
+}
+
+#container2 {
+    margin-top: 2.5em;
+    display: grid;
+    padding: 0 6%;
+    justify-content: space-between;
+    grid-template-columns: 44% 44%;
+    grid-auto-rows: auto;
+    column-gap: 1em;
+    row-gap: 2em;
+}
+
 .developer {
     grid-column: 1/4;
     background-image: url(images/banner-3.png);
@@ -108,13 +116,57 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    margin-top: 0.5em;
     padding-top: 9.947826086956522%;
     /* (img-height / img-width * container-width) */
     /* (853 / 1280 * 100) */
 }
 
+.big1 {
+    grid-column: 1/4;
+}
+
 .article {
+    background-color: #0E0D0D;
     img {
+        object-fit: center;
         width: 100%;
     }
+}
+
+.arttext {
+    padding: 0 5% 3%;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+#footer {
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0d0d;
+    div ul {
+        width: 100%;
+        border: 1px solid white;
+        min-height: 6vh;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 0 0 2%;
+        flex-wrap: wrap;
+    }
+}
+
+#white {
+    color: white;
 }
