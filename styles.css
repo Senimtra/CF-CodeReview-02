@@ -7,7 +7,6 @@
 body {
   background-color: #222222;
   font-family: "Roboto", sans-serif;
-  color: white;
 }
 
 a {
@@ -384,7 +383,6 @@ a {
   body #footer ul {
     position: relative;
     left: -2vw;
-    border: 1px solid white;
     width: 80vw;
     font-size: 60%;
     min-height: 6vh;
@@ -412,7 +410,7 @@ a {
   }
   body #CodeFactory {
     background-color: #0e0d0d;
-    color: white;
+    color: red;
     position: relative;
     font-size: 1em;
     height: 7vh;
