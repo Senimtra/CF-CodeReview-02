@@ -101,6 +101,42 @@ a {
     color: black;
 }
 
+.heading-cult {
+    font-size: calc(1em + 0.5vw);
+    font-weight: bold;
+    padding: 1% 3%;
+    background-color: #ad93a1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/4;
+    color: black;
+}
+
+.heading-news {
+    font-size: calc(1em + 0.5vw);
+    font-weight: bold;
+    padding: 1% 3%;
+    background-color: #dad6ba;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/4;
+    color: black;
+}
+
+.heading-tech {
+    font-size: calc(1em + 0.5vw);
+    font-weight: bold;
+    padding: 1% 3%;
+    background-color: #8991ac;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 1/4;
+    color: black;
+}
+
 
 /* ### The two containers of the desktop version. ### */
 
@@ -168,7 +204,7 @@ a {
         // max-height: 20em;
         position: relative;
         margin-bottom: 2rem;
-        box-shadow: 2px 2px 4px black;
+        box-shadow: 2px 2px 3px black;
         top: 5px;
 
     }
@@ -178,6 +214,7 @@ a {
     background-color: whitesmoke;
     padding: 2rem;
     margin-bottom: 2rem;
+    box-shadow: 1px 1px 1px darkgrey;
 }
 
 .arttext {
