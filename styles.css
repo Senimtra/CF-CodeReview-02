@@ -223,6 +223,14 @@ a {
   row-gap: 2em;
 }
 
+#container2 div a {
+  width: 100%;
+}
+
+#container2 img {
+  object-fit: cover;
+}
+
 #container-add {
   display: -ms-grid;
   display: grid;
